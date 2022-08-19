@@ -1,0 +1,18 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  .mountNode > div {
+    border: 1px solid #888;
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  .mountNode input {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  .mountNode pre {
+    background-color: inherit;
+  }
